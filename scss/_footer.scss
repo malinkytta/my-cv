@@ -1,0 +1,20 @@
+footer {
+    background-color: darken($darker-color, 100%);
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+
+    .socials {
+        a {
+            margin: 10px;
+            font-size: 35px;
+            padding: 0px 0px 20px 0px;
+            color: $primary-color;
+        }
+
+        a:hover {
+            color: darken($primary-color, 10%);
+        }
+    }
+}

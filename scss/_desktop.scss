@@ -1,0 +1,108 @@
+@media(min-width:950px) {
+
+
+    .nav-header {
+        display: block;
+    }
+
+    .flex-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        // padding: 0 100px;
+        // margin: 0 50px;
+    }
+
+    .container {
+        max-width: 100%;
+
+        nav {
+            height: auto;
+
+            ul {
+                text-align: center;
+
+                li {
+                    display: inline-block;
+                    border-bottom: none;
+                }
+            }
+        }
+
+        button {
+            display: none;
+        }
+    }
+
+    .banner-bg {
+        height: 100vh;
+
+        .banner-text {
+            text-align: end;
+        }
+    }
+
+    // ABOUT ME SECTION 
+    .about {
+
+        .about-text {
+            grid-column: 1 / span 2;
+            grid-row: 1 / span 2;
+
+            h2 {
+                font-size: 7rem;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            button {
+                padding: 15px;
+
+                a {
+                    font-size: 1rem;
+                }
+
+                a:hover {
+                    color: $darker-color;
+                }
+            }
+
+            .about-img {
+                // position: relative;
+                grid-column: 3;
+                grid-row: 1 / span 2;
+                // height: 80vh;
+                // background-color: $primary-color;
+                // background: url(/img/about-bg-2.jpg);
+                // background-size: cover;
+            }
+        }
+    }
+
+    // .knowledge {
+    //     i {
+    //         padding: 55px;
+    //         font-size: 4rem;
+    //     }
+    // }
+
+    .portfolio {
+        h2 {
+            font-size: 7rem;
+        }
+    }
+
+    .contact-container {
+        .contact-right {
+            h2 {
+                font-size: 7rem;
+            }
+        }
+    }
+}

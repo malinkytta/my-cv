@@ -1,0 +1,53 @@
+.banner-bg {
+    // height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/bg-3.jpg);
+    padding: 25em 0;
+    background-size: cover;
+    background-position: center;
+    // position: relative;
+    // z-index: -1;
+
+    .banner-text {
+        // position: absolute;
+        width: 85%;
+        margin: 0 auto;
+        font-size: 2rem;
+        line-height: 1.2em;
+        color: $lighter-color;
+        // display: block;
+
+        // top: 40%;
+        // left: 30%;
+        // font-size: 1rem;
+
+        h2 {
+            font-family: $font-header;
+            font-size: 3rem;
+            font-weight: 400
+        }
+
+        h3 {
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+
+        .name {
+            font-family: $font-stack;
+            font-weight: 200;
+            font-size: 2rem;
+        }
+
+        .job {
+            color: $primary-color;
+            font-weight: 600;
+        }
+    }
+
+}
+
+// .banner-second {
+//     visibility: hidden;
+//     // background: url(/img/banner-2.jpg);
+//     // padding: 5em 0;
+//     // background-size: cover;
+// }

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malin Kyttä</title>
+    <meta name="description" content="This is a CV for Malin Kyttä." />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo-1.png">
+    <link rel="stylesheet" href="https://use.typekit.net/urf4lxt.css">
+    <script src="https://kit.fontawesome.com/30990e5497.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container flex-nav">
+            <div class="nav-header">
+                <h1><img src="img/logo.webp" alt="logo Malin Kyttä">Malin Kyttä</h1>
+                <button id="menuButton">
+                    <i class="fa-solid fa-bars"></i></button>
+            </div>
+            <nav id="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="banner-bg">
+            <div class="banner-text">
+                <h2>Hi there, <span class="name">I'm Malin Kyttä!</span></h2>
+                <h3>Front End <span class="job">developer</span></h3>
+            </div>
+        </div>
+        <section class="about" id="about">
+            <div class="about-text">
+                <h2>About me</h2>
+                <h3>I'm a Front End Developer from the Swedish westcoast.</h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, labore. Atque consectetur dolorem
+                    excepturi, sequi beatae, voluptate autem sapiente, quidem veritatis adipisci ea? Repudiandae,
+                    tenetur?
+                </p>
+                <button> <a href="/about.html">Learn more</a></button>
+            </div>
+            <div class="about-img">
+                <img class="me" srcset="/img/me-small.jpg 480w, /img/me-medium.jpg 800w, /img/me-big.jpg 1024w"
+                    sizes="(max-width: 600px)" src="/img/me-small.jpg" alt="malin sitting on a rock">
+            </div>
+        </section>
+        <!-- <section class="banner-second"></section> -->
+        <section class="portfolio" id="portfolio">
+            <!-- <div class="portfolio-text"> -->
+            <h2>Portfolio</h2>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eos quo sequi porro atque alias -->
+            <!-- dignissimos, tempore saepe rerum est?</p> -->
+            <!-- </div> -->
+            <div class="gallery">
+                <div class="image image-1">
+                    <img src="img/portfolio-4.jpg" alt="a horse on the beach">
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="image image-2">
+                    <img src="img/portfolio-2.jpg" alt="a lovecouple">
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="image image-3">
+                    <img src="img/portfolio-3.jpg" alt="interior">
+                </div>
+            </div>
+
+        </section>
+        <section class="contact-container" id="contact">
+            <div class="wrapper">
+                <div class="contact-left">
+                    <div class="background">
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i>
+                                <h2>Location</h2>
+                                <h3>Skummeslövsstrand</h3>
+                            </li>
+
+                            <li><i class="fas fa-phone-alt"></i>
+                                <h2>Phone</h2>
+                                <h3>076 - 020 80 88</h3>
+                            </li>
+
+                            <li><i class="fas fa-envelope"></i>
+                                <h2>Email</h2>
+                                <h3>malin.kytta@medieinstitutet.se</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <h2>Let's chat</h2>
+                    <p>Whether you have a question, want to start a project or simply want to connect.</p>
+                    <form>
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="mail" name="email" id="email" placeholder="Your email" required>
+
+                        <label for="subject">Subject</label>
+                        <textarea type="subject" name="subject" id="subject" placeholder="Write something"
+                            required></textarea>
+                        <button>Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/malin-kytt%C3%A4-7a8365222/">
+                <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/malinkytta"><i class="fa-brands fa-github"></i></a>
+            <!-- <i class="fab fa-instagram"></i> -->
+        </div>
+    </footer>
+    <script src="/js/code.js"></script>
+</body>
+
+</html>

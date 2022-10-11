@@ -1,0 +1,76 @@
+@media (min-width: 600px) {
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr .5fr 1fr;
+        // grid-template-rows: repeat(2, 1fr);
+
+        .about-text {
+            grid-column: 1 / span 2;
+            // grid-row: 1;
+        }
+
+        .about-img {
+            grid-column: 3;
+            // grid-row: 1 / span 2;
+            // height: 100vh;
+            align-self: center;
+            // background: url(/img/about-bg-2.jpg);
+            // background-size: cover;
+            // position: relative;
+
+            img {
+                border: 1px solid $primary-color;
+                padding: 10px;
+            }
+
+            //      position: absolute;
+            //     width: 100%;
+            //     left: -15%;
+            //     top: 25%;
+            //     border: 1px solid $darker-color;
+            //     padding: 10px;
+            // }
+        }
+
+    }
+
+    // .knowledge {
+    //     i {
+    //         padding: 35px
+    //     }
+    // }
+
+    .portfolio {
+        grid-template-columns: repeat(3, 1fr);
+
+        h2 {
+            grid-column: span 3;
+        }
+
+    }
+
+
+    // CONTACT FORM
+    .contact-container {
+        // max-width: 1170px;
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            background-color: $darker-color;
+        }
+
+        .wrapper>* {
+            padding: 2em;
+        }
+    }
+
+    // .banner-second {
+    //     background: url(/img/banner-2.jpg);
+    //     visibility: visible;
+    //     padding: 50px;
+    //     background-size: cover;
+
+    // }
+}

@@ -1,0 +1,37 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+    grid-auto-flow: dense;
+    padding: 0 10px;
+
+
+    h2 {
+        font-family: $font-header;
+        font-weight: 400;
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+.gallery {
+    width: 100%;
+    height: 100%;
+
+    .image {
+        width: 100%;
+        height: 100%;
+
+        img {
+            // object-fit: cover;
+            // object-position: 50% 50%;
+            filter: grayscale(100%);
+
+        }
+
+        img:hover {
+            filter: grayscale(0%);
+        }
+
+    }
+}
