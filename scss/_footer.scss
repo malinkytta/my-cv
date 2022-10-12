@@ -1,11 +1,16 @@
 footer {
-    background-color: darken($darker-color, 100%);
+    background-color: rgba(0, 0, 0, 0.7);
+
     display: flex;
     justify-content: center;
     height: 15vh;
     align-items: center;
 
     .socials {
+        p {
+            display: none;
+        }
+
         a {
             margin: 10px;
             font-size: 35px;

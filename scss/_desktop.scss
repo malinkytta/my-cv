@@ -7,14 +7,16 @@
 
     .flex-nav {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        // padding: 0 100px;
-        // margin: 0 50px;
     }
 
     .container {
         max-width: 100%;
+
+        img {
+            height: 100px;
+        }
 
         nav {
             height: auto;
@@ -34,12 +36,27 @@
         }
     }
 
+    // BANNER BACKGROUND
     .banner-bg {
         height: 100vh;
 
         .banner-text {
             text-align: end;
+            line-height: 1.7em;
+
+            h2 {
+                font-size: 5rem;
+            }
+
+            h3 {
+                font-size: 2.8rem;
+            }
+
+            .name {
+                font-size: 3.5rem;
+            }
         }
+
     }
 
     // ABOUT ME SECTION 
@@ -85,12 +102,16 @@
         }
     }
 
-    // .knowledge {
-    //     i {
-    //         padding: 55px;
-    //         font-size: 4rem;
-    //     }
-    // }
+
+    // Second banner picture
+    .banner-second {
+        background: url(/img/view.webp);
+        // visibility: visible;
+        padding: 200px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
 
     .portfolio {
         h2 {

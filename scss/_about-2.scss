@@ -1,0 +1,81 @@
+.nav-about-2 {
+    height: 100px;
+    padding: 40px;
+    // background-color: grey;
+    justify-content: center;
+
+    i {
+        font-size: 2.5rem;
+        color: $lighter-color;
+    }
+
+    i:hover {
+        color: $primary-color;
+    }
+
+}
+
+.about-2 {
+
+    margin: 0 20px;
+
+
+    .about-text-2 {
+        text-align: center;
+        line-height: 1.2;
+
+        h1 {
+            font-family: $font-header;
+            font-weight: 400;
+            color: $primary-color;
+            padding: 5px;
+            font-size: 6rem;
+            border-bottom: 1px solid $primary-color;
+        }
+
+        h2 {
+            font-family: $font-header;
+            font-size: 4rem;
+            font-weight: 400;
+        }
+
+        p {
+            padding: 10px;
+            color: $lighter-color;
+        }
+
+        a {
+            color: white;
+            font-size: 50px;
+        }
+    }
+
+    .first-text {
+        padding: 20px 0;
+        border-bottom: 1px solid $primary-color;
+    }
+
+    .second-text {
+        padding: 20px 0;
+        border-bottom: 1px solid $primary-color;
+
+    }
+
+    .experience {
+        padding: 20px 0;
+        border-bottom: 1px solid $primary-color;
+    }
+
+    .education {
+        padding: 20px 0;
+        border-bottom: 1px solid $primary-color;
+    }
+
+    .skills {
+        padding: 20px 0;
+    }
+
+    .icons {
+        font-size: 3rem;
+    }
+}

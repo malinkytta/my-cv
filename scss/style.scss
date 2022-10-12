@@ -2,12 +2,11 @@
 @import 'navbar';
 @import 'banner';
 @import 'about';
+@import 'about-2';
 @import 'portfolio';
 @import 'contact';
 @import 'footer';
-@import 'knowledge';
 
-@import url("https://use.typekit.net/urf4lxt.css");
 
 
 * {
@@ -21,7 +20,6 @@ body {
     color: $primary-color;
     font-family: $font-stack;
     font-weight: 200;
-
 }
 
 img {
@@ -34,10 +32,15 @@ a {
     text-decoration: none;
     font-family: $font-stack;
     font-weight: 100;
+    font-size: 1.2rem;
 }
 
 a:hover {
     color: $primary-color;
+}
+
+button:hover {
+    background-color: darken($primary-color, 10%);
 }
 
 @import 'tablet';
