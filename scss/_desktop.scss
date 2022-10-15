@@ -91,27 +91,72 @@
             }
 
             .about-img {
-                // position: relative;
                 grid-column: 3;
                 grid-row: 1 / span 2;
-                // height: 80vh;
-                // background-color: $primary-color;
-                // background: url(/img/about-bg-2.jpg);
-                // background-size: cover;
             }
         }
     }
 
+    // SECOND ABOUT ME PAGE
+    .about-2 {
+        .about-text-2 {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: .2fr .5fr .5fr;
+            // align-items: center;
 
-    // Second banner picture
+            h1 {
+                grid-column: span 3;
+            }
+
+            .first-text {
+                grid-column: 1 / span 2;
+                grid-row: 2;
+                // padding: 20px;
+                margin: 20px;
+                border-bottom: none;
+            }
+
+            .second-text {
+                margin: 20px;
+                grid-column: 3;
+                grid-row: 2;
+                border-bottom: none;
+            }
+
+            .experience {
+                margin: 20px;
+                grid-column: 1;
+                grid-row: 3;
+                border-bottom: none;
+
+            }
+
+            .skills {
+                margin: 20px;
+                grid-column: 3;
+                grid-row: 3;
+            }
+
+            .education {
+                margin: 20px;
+                grid-column: 2;
+                grid-row: 3;
+                border-bottom: none;
+
+            }
+        }
+    }
+
+    // SECOND BANNER BACKGROUND
     .banner-second {
-        background: url(/img/view.webp);
+        background: url(../img/view.webp);
         // visibility: visible;
         padding: 200px;
         background-size: cover;
         background-attachment: fixed;
     }
 
+    // PORTFOLIO
 
     .portfolio {
         h2 {
@@ -119,6 +164,7 @@
         }
     }
 
+    // CONTACT
     .contact-container {
         .contact-right {
             h2 {

@@ -1,12 +1,10 @@
 .banner-bg {
-    // height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.webp);
     padding: 25em 0;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    // position: relative;
-    // z-index: -1;
+
 
     .banner-text {
         width: 85%;
@@ -39,7 +37,3 @@
     }
 
 }
-
-// .banner-second {
-//     visibility: hidden;
-// }

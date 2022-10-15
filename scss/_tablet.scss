@@ -8,6 +8,7 @@
         .about-text {
             grid-column: 1 / span 2;
             // grid-row: 1;
+            align-self: center;
         }
 
         .about-img {
@@ -23,57 +24,50 @@
     }
 
     // Second About me page
+    .about-2 {
+        .about-text-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: .2fr .5fr .5fr 1fr;
+            // align-items: center;
 
-    .about-text-2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: .2fr .5fr .5fr .5fr;
-        align-items: center;
+            h1 {
+                grid-column: span 3;
+            }
 
-        h1 {
-            grid-column: span 2;
+            .first-text {
+                grid-column: 1;
+                grid-row: 2;
+                // padding: 20px;
+                // margin: 20px;
+                border-bottom: none;
+            }
 
-        }
+            .second-text {
+                // margin: 20px;
+                grid-column: 2;
+                grid-row: 2;
+                border-bottom: none;
+            }
 
-        .first-text {
-            grid-column: 1;
-            grid-row: 2;
-            padding: 20px;
-            margin: 20px;
-            border-bottom: none;
-        }
+            .experience {
+                grid-column: 1;
+                grid-row: 3;
+                border-bottom: none;
+            }
 
-        .second-text {
-            grid-column: 1;
-            grid-row: 3;
-            border-bottom: none;
-        }
+            .education {
+                grid-column: 2;
+                grid-row: 3;
+                border-bottom: none;
+            }
 
-        .experience {
-            grid-column: 2;
-            grid-row: 2;
-            border-bottom: none;
-        }
-
-        .education {
-            grid-row: 3;
-            border-bottom: none;
-        }
-
-        .skills {
-            grid-column: span 2;
+            .skills {
+                grid-column: 1 / span 3;
+                grid-row: 4;
+            }
         }
     }
-
-
-    // // Second banner picture
-    // .banner-second {
-    //     background: url(/img/view.webp);
-    //     visibility: visible;
-    //     padding: 150px;
-    //     background-size: cover;
-    //     background-attachment: fixed;
-    // }
 
     .portfolio {
         grid-template-columns: repeat(3, 1fr);
@@ -92,7 +86,6 @@
         }
 
     }
-
 
     // CONTACT FORM
     .contact-container {

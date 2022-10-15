@@ -1,8 +1,8 @@
 .nav-about-2 {
     height: 100px;
     padding: 40px;
-    // background-color: grey;
     justify-content: center;
+    position: absolute;
 
     i {
         font-size: 2.5rem;
@@ -19,10 +19,9 @@
 
     margin: 0 20px;
 
-
     .about-text-2 {
         text-align: center;
-        line-height: 1.2;
+        line-height: 1.5;
 
         h1 {
             font-family: $font-header;
@@ -34,9 +33,10 @@
         }
 
         h2 {
-            font-family: $font-header;
-            font-size: 4rem;
-            font-weight: 400;
+            font-family: $font-stack;
+            text-transform: uppercase;
+            font-size: 2rem;
+            font-weight: 200;
         }
 
         p {
@@ -48,16 +48,38 @@
             color: white;
             font-size: 50px;
         }
+
+        span {
+            font-style: italic;
+        }
+
+        .and {
+            font-family: $font-header;
+            font-size: 5rem;
+            font-weight: 100;
+        }
     }
 
     .first-text {
-        padding: 20px 0;
+        padding: 20px 10px;
         border-bottom: 1px solid $primary-color;
     }
 
     .second-text {
-        padding: 20px 0;
+        font-weight: 100;
+        padding: 20px 10px;
         border-bottom: 1px solid $primary-color;
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 100;
+        }
+
+        span {
+            font-family: $font-header;
+            font-size: 4rem;
+            font-weight: 100;
+        }
 
     }
 
