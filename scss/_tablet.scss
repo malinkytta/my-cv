@@ -1,5 +1,6 @@
 @media (min-width: 600px) {
 
+    // ABOUT ME PAGE
     .about {
         display: grid;
         grid-template-columns: 1fr .5fr 1fr;
@@ -23,7 +24,7 @@
 
     }
 
-    // Second About me page
+    // SECOND ABOUT ME PAGE
     .about-2 {
         .about-text-2 {
             display: grid;
@@ -69,6 +70,7 @@
         }
     }
 
+    // PORTFOLIO PAGE
     .portfolio {
         grid-template-columns: repeat(3, 1fr);
 
@@ -83,6 +85,7 @@
         h3 {
             padding: 20px;
             text-align: center;
+            font-weight: 200;
         }
 
     }
